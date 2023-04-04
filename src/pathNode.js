@@ -5,7 +5,11 @@
  * stack
  */
 class PathNode {
-    constructor(parentNode){
+    constructor(parentNode, col, row){
         this.parentNode = parentNode;
+        this.col = col;
+        this. row = row;
     }
 }
+
+export default PathNode
